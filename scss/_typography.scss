@@ -1,10 +1,37 @@
-$font-header:  'Oswald', sans-serif;
-$font-content: 'Roboto', sans-serif;
+$font-header__font-family:  'charlemagne-std', serif;
+$font-header__weight: 700;
+$font-header__style: normal;
+$font-header__line-height: 1em;
+
+@mixin font-header {
+    font-family: $font-header__font-family;
+    font-weight: $font-header__weight;
+    font-style: $font-header__style;
+    line-height: $font-header__line-height;
+}
+
+$font-content__font-family: 'Roboto', sans-serif;
+$font-content__weight: 400;
+$font-content__style: normal;
+$font-content__line-height: 1em;
+
+@mixin font-content {
+    font-family: $font-content__font-family;
+    font-weight: $font-content__weight;
+    font-style: $font-content__style;
+    line-height: $font-content__line-height;
+    color: $color-black;
+}
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: $font-header;
+    @include font-header;
 }
 
 p {
-    font-family: $font-content;
+    @include font-content;
+}
+
+.page-content__paragraph {
+    @include font-content;
+    
 }

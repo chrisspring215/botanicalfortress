@@ -1,41 +1,33 @@
 .global-navigation__link { 
     text-decoration: none;
-    font-family: $font-header;
+    @include font-content;
 }
-
 
 .mobile-control {
     visibility: visible;
 }
 
 .header .global-navigation {
-
     position: absolute;
     width: 100%;
 }
 
-
-
-
 .header .global-navigation__link {
-
     display: block;
-    color: $color-grey-full;
     text-transform: uppercase;
     padding: .4em .5em;
-    background-color: $color-grey-full;
+    background-color: $color-black;
     color: $color-white;
     transition: $transition--all-out;
     text-align: right;
-    border-bottom: 1px solid $color-grey-full + 50;
+    border-bottom: 1px solid $color-black;
 
     &:hover {
-        background-color: $color-yellow;
-        color: $color-grey-full - 50;
+        background-color: $color-white;
+        color: $color-black;
         transition: $transition--all-in;
     }
 }
-
 
 @media only screen and (min-width: 48em) { 
 
@@ -47,7 +39,7 @@
 
     .header .global-navigation__link {
         display: inline-block;
-        color: $color-grey-full;
+        color: $color-black;
         text-transform: uppercase;
         padding: .3em .5em;
         margin-right: 1em;
@@ -56,8 +48,8 @@
         transition: $transition--all-out;
     
         &:hover {
-            background-color: $color-yellow;
-            color: $color-grey-full;
+            background-color: $color-white;
+            color: $color-black;
             transition: $transition--all-in;
         }
     }

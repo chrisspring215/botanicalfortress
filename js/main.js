@@ -5,8 +5,8 @@
 
 // SETS UP GLOBAL NAV LINKS
 const globalNavigationLinks = {
-    links: ['Home', 'Approach', 'Practice Areas', 'Attoneys', 'Engage Relic' ],
-    addresses: ['index.html', 'index.html', 'index.html', 'index.html', 'index.html' ]
+    links: ['Home', 'About', 'Media', 'Contact' ],
+    addresses: ['index.html', 'index.html', 'index.html', 'index.html' ]
 }
 
 // BUILDS MOBILE AND GLOBAL NAV
