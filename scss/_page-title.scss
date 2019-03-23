@@ -1,35 +1,46 @@
 
     .page-title {
         color: $color-black;
-        text-align: center;
-        margin-bottom: 4em;
+        text-align: left;
+        margin-top: 2em;
     }
 
     .page-title__title {
-        font-size: 3em;
+        font-size:2em;
         @include font-header;
-        padding-bottom: .15em;
-        margin: 1.5em 0 .25em 0;
         text-transform: uppercase;
-        border-bottom: .05em solid $color-black;
+        margin: .5em 0 0 0;
     }
 
+    .page-title__separator {
+        height: 1.25em;
+        background: url(../img/stripes-01-01.svg);
+        margin-bottom: 2em;
+    }
     .page-title__sub-title {
         @include font-content;
+        font-style: italic;
+        margin: .25em 0 1em 0;
+        text-align: left;
+    }
+
+    .page-content__content-header {
+        margin-top: 0;
+    }
+
+    .page-content__topic-header {
+        margin-top: 0;
     }
 
 @media only screen and (min-width: 48em) {
 
         .page-title {
-            margin-bottom: 4em;
+            margin-top: 8em;
         }
 
         .page-title__title {
-            font-size: 4.5em;
-            padding-bottom: .35em;
-            margin: 2em 0 .25em 0;
+            font-size: 3em;
             text-transform: uppercase;
-            border-bottom: .15em solid $color-black;
         }
     
         .page-title__sub-title {

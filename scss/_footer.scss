@@ -1,4 +1,45 @@
 footer {
     background: $color-black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: .25em 0;
+}
 
+.footer__social-icons, .main__social-icons {
+    text-align: right;
+}
+
+.footer__social-icon {
+    color: $color-white;
+    margin-left: .25em;
+}
+
+.main__social-icon {
+    color: $color-black;
+    margin-left: .25em;
+    font-size: 2em;
+}
+
+.footer__ff-crest-wrapper {
+    padding-top: .25em;
+}
+
+.footer__ff-crest {
+    height: 2em;
+    width: auto;
+}
+
+@media only screen and (min-width: 48em) { 
+
+    .footer__social-icons {
+        font-size: 2em;
+    }
+
+    .main__social-icon {
+        color: $color-black;
+        margin-left: .25em;
+        font-size: 1.25em;
+    }
 }

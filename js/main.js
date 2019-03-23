@@ -5,8 +5,8 @@
 
 // SETS UP GLOBAL NAV LINKS
 const globalNavigationLinks = {
-    links: ['Home', 'About', 'Media', 'Contact' ],
-    addresses: ['index.html', 'index.html', 'index.html', 'index.html' ]
+    links: ['Home', 'About', 'live', 'Media', 'Contact' ],
+    addresses: ['index.html', 'about.html', 'live-shows.html', 'index.html', 'index.html' ]
 }
 
 // BUILDS MOBILE AND GLOBAL NAV

@@ -11,9 +11,10 @@ $font-header__line-height: 1em;
 }
 
 $font-content__font-family: 'Roboto', sans-serif;
+$font-content__font-family:'Roboto Condensed', sans-serif;
 $font-content__weight: 400;
 $font-content__style: normal;
-$font-content__line-height: 1em;
+$font-content__line-height: 1.3m;
 
 @mixin font-content {
     font-family: $font-content__font-family;
@@ -29,9 +30,11 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
     @include font-content;
+    
 }
 
 .page-content__paragraph {
     @include font-content;
+    
     
 }

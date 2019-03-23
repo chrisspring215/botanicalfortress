@@ -105,6 +105,7 @@ textarea {
 @import 'header';
 @import 'global-navigation';
 @import 'footer';
+@import 'images';
 
 @import 'page-title';
 
@@ -294,3 +295,6 @@ textarea {
     }
 }
 
+main {
+    margin-bottom: 5em;
+}

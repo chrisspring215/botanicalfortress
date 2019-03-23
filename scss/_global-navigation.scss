@@ -1,6 +1,7 @@
 .global-navigation__link { 
     text-decoration: none;
     @include font-content;
+    line-height: 1em;
 }
 
 .mobile-control {
