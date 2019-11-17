@@ -1,0 +1,5 @@
+#!/bin/bash
+
+host="botanicalfortress.com"
+
+rsync -av --exclude 'bin' ./ $host:/var/www/html/new/
